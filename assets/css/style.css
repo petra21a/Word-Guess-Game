@@ -1,0 +1,14 @@
+#user-guess{
+    text-transform: uppercase;
+}
+
+.body{
+    font-family: 'Handlee', cursive;
+}
+.main{
+    background-image: url("../images/congruent_pentagon.png");
+}
+
+#picture{
+    max-width:300px;
+}

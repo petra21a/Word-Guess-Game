@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">    
+    
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Word-Guess-Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/resets.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
+</head>
+<body class="body">
+    <header class="width-auto text-center">
+            <h1 class="md-display-3 display-4 text-secondary bg-muted border-bottom border-success">
+                The Word Guess Game
+            </h1>
+            <h2 class="md-display-3 display-4  font-italic">
+                Zoo edition
+            </h2>
+    </header>
+        <main class="main container border border-secondary">
+           <div class="row">
+          
+            <div class="col-md-6 col-12 text-center width-auto py-3">    
+            <h2>Press any key to get started!</h2>
+            <section class="width-auto border border-secondary py-3 m-1">
+                <h3>Word: <span id="word" class="font-weight-bold py-2 width-100"></span></h3>
+                <br>
+                <h3>Wins: <span id="wins"></span></h3>
+                <h3>Guesses Left: <span id="chances"></span></h3>
+                <h3>Your Guesses so far: </h3>
+                <h3 id="user-guess" class="text-warning"></h3>
+                <h3 id="message"></h3>
+            </section>
+            </div>
+            <div class="col-md-6 col-12 text-md-left text-center">
+                    <img id="picture" class="img-fluid m-2 width-auto height-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBsTbcASC5ezYRkyy7-W5SFYJ699OoY0MzNbxRdYek0LnQSzioZg" alt="animal picture">
+            </div>
+            </div> 
+        </main>
+
+<script type="text/javascript" src="./assets/javascript/game.js"></script>  
+</body>
+</html>
